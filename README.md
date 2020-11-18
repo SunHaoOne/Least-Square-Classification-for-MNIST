@@ -32,8 +32,21 @@ In this first experiment, we use the 493 pixel intensities, plus an additional f
     
     It seems like softmax, if b>0 we reset the predict label 1 else if b<0 we reset the label -1
 ## Third
-  compare b_test with b_predict we can caculate TP,TN,FP,FN and precise,recall,error... 
+    Compare b_test with b_predict 
+    
+    Andwe can caculate TP,TN,FP,FN and precise,recall,error... 
   
 ## Adding stochastic features 
-  Using this way can decrease the error from 1.6% to 0.2%
+
+    Using this way can decrease the error from 1.6% to 0.2%
+    
+    We set a random matric R (+1 or -1)(5000 by 494), and A*R.T(60000 by 5000).
+    
+    Then set new A_add =[A,A*R.T],(60000 by 5494)
+    
+    Then we do the some things as before.
+    
+    Mention that when using for test_set, we should still use the random matric as before(R).
+    
+    
     
