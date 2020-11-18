@@ -34,5 +34,6 @@ In this first experiment, we use the 493 pixel intensities, plus an additional f
 ## Third
   compare b_test with b_predict we can caculate TP,TN,FP,FN and precise,recall,error... 
   
- ## Adding stochastic features can decrease the error from 1.6% to 0.2%
+## Adding stochastic features 
+  Using this way can decrease the error from 1.6% to 0.2%
     
