@@ -31,7 +31,7 @@ In this first experiment, we use the 493 pixel intensities, plus an additional f
     After we get the x matric, we caculate A_test(10000 by 494) * x(494 by 1) = b_predict(10000*1)
     
     It seems like softmax, if b>0 we reset the predict label 1 else if b<0 we reset the label -1
-## Third,
+## Third
   compare b_test with b_predict we can caculate TP,TN,FP,FN and precise,recall,error... 
   
  ## Adding stochastic features can decrease the error from 1.6% to 0.2%
