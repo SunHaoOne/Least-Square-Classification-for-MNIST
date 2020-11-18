@@ -12,6 +12,7 @@ In this first experiment, we use the 493 pixel intensities, plus an additional f
 
 ![](https://github.com/SunHaoOne/Least-Square-Classification-for-MNIST/blob/main/A%20matric.jpg)  
 
+![](https://github.com/SunHaoOne/Least-Square-Classification-for-MNIST/blob/main/A.jpg)
 ## Second
   For the trainning dataset:
   
@@ -50,6 +51,6 @@ In this first experiment, we use the 493 pixel intensities, plus an additional f
     Then we do the some things as before.
     
     Mention that when using for test_set, we should still use the random matric as before(R).
-    
+![](https://github.com/SunHaoOne/Least-Square-Classification-for-MNIST/blob/main/result.png)
     
     
