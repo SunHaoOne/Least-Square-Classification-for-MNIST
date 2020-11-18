@@ -10,7 +10,7 @@ The major theory are  as followings:
 In this first experiment, we use the 493 pixel intensities, plus an additional feature with value 1, as the n = 494 features in the least squares classifier).
 
 
-![](https://github.com/SunHaoOne/Least-Square-Classification-for-MNIST/raw/master/A matric.jpg)  
+![](https://github.com/SunHaoOne/Least-Square-Classification-for-MNIST/raw/master/A.jpg)  
 
 ## Second
   For the trainning dataset:
