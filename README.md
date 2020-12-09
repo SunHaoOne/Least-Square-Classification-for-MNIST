@@ -8,11 +8,12 @@ The major theory are  as followings:
 ## First
 
 In this first experiment, we use the 493 pixel intensities, plus an additional feature with value 1, as the n = 494 features in the least squares classifier).
+~~~
+non_zero = np.linalg.norm(train_images_2DT[i,:], ord=0) 
+~~~
+For a training set of 60,000 images, 1% of which is 600 images, imagine the following, if 60,000 images are stacked one on top of the other and stuck vertically with a needle, if there are more than 600 images where the area is non-zero (i.e. not black in the image, e.g. 0.5, 0.6, etc.), i.e. more than 59,400 images where the area has the actual image pixel values. If we extract a feature like this, then it is extracted.
 
-
-![](https://github.com/SunHaoOne/Least-Square-Classification-for-MNIST/blob/main/A%20matric.jpg)  
-
-![](https://github.com/SunHaoOne/Least-Square-Classification-for-MNIST/blob/main/A.jpg)
+In total there are 28 × 28 = 784 positions, and after this extraction we can work out that there are 493 feature positions.
 ## Second
   For the trainning dataset:
   
