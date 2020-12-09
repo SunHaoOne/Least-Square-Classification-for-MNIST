@@ -58,7 +58,7 @@ In total there are 28 × 28 = 784 positions, and after this extraction we can wo
     
     Such as followings:
     
-   https://latex.codecogs.com/gif.latex?\\max(0,(Rx)_j),j=1,2,3...5000
+   max(0,(Rx)_j),j=1,2,3...5000
     
     It is something like the Relu function.
     
