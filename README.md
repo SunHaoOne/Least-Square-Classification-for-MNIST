@@ -1,7 +1,14 @@
 # Least-Square-Classification-for-MNIST
 By using Least Square Classification for MNIST, and adding random features, we finally get the 0.2 % error rate.
 
+There are 2 versions, CPU(in windows 10) and GPU(in Ubuntu 20.04).
 
+- For windows 10, you need numpy, and prettytable(to show the results more clear)
+
+- For Ubuntu 20.04, you need numpy, prettytable, numba and torch(pytorch for GPU).You can install cuda first, which includes the numba.
+
+
+And import time to shouw the running time.
 
 
 The major theory are  as followings:
@@ -51,7 +58,7 @@ In total there are 28 × 28 = 784 positions, and after this extraction we can wo
     
     Such as followings:
     
-    $max(0,(Rx)_j),j=1,2,3...5000$
+   $max(0,(Rx)_j),j=1,2,3...5000$
     
     It is something like the Relu function.
     
@@ -65,7 +72,7 @@ In total there are 28 × 28 = 784 positions, and after this extraction we can wo
 ## GPU version
     The following discription is used for CPU version and it cost much time.
     
-    So I use pytorch for GPU , cuda , and @jit for C++ to accelerate the code.
+    So I use pytorch for GPU , cuda , and @jit for C++ to accelerate the code.(In ubuntu 20.04)
     
     Finally, the running time reduced to 1/3 of the original.
     
