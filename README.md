@@ -47,6 +47,14 @@ In total there are 28 × 28 = 784 positions, and after this extraction we can wo
     
     We set a random matric R (+1 or -1)(5000 by 494), and A*R.T(60000 by 5000).
     
+    And then set the element which less than zero in A.R to 0.
+    
+    Such as followings:
+    
+    $max(0,(Rx)_j),j=1,2,3...5000$
+    
+    It is something like the Relu function.
+    
     Then set new A_add =[A,A*R.T],(60000 by 5494)
     
     Then we do the some things as before.
