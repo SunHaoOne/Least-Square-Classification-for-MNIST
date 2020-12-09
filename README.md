@@ -53,4 +53,11 @@ In this first experiment, we use the 493 pixel intensities, plus an additional f
     Mention that when using for test_set, we should still use the random matric as before(R).
 ![](https://github.com/SunHaoOne/Least-Square-Classification-for-MNIST/blob/main/result.png)
     
+## GPU version
+    The following discription is used for CPU version and it cost much time.
     
+    So I use pytorch for GPU , cuda , and @jit for C++ to accelerate the code.
+    
+    Finally, the running time reduced to 1/3 of the original.
+    
+    You can find more details in https://blog.csdn.net/qwe900/article/details/109774223
